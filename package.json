@@ -1,0 +1,13 @@
+{
+  "name": "@valcomare/environment",
+  "version": "1.0.0",
+  "scripts": {
+    "prepare": "husky install",
+    "encrypt": "dotenvx encrypt -f ./src/.env.production",
+    "decrypt": "dotenvx decrypt -f ./src/.env.production"
+  },
+  "devDependencies": {
+    "@dotenvx/dotenvx": "^1.44.0",
+    "husky": "^9.1.7"
+  }
+}
