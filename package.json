@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "prepare": "husky install",
+    "rotate.production": "dotenvx rotate -f ./src/.env.production",
     "encrypt": "dotenvx encrypt -f ./src/.env.production",
     "decrypt": "dotenvx decrypt -f ./src/.env.production"
   },
